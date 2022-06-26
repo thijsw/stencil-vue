@@ -18,7 +18,7 @@ export namespace Components {
         /**
           * The middle name
          */
-        "middle": string;
+        "middleName": string;
     }
 }
 declare global {
@@ -45,7 +45,7 @@ declare namespace LocalJSX {
         /**
           * The middle name
          */
-        "middle"?: string;
+        "middleName"?: string;
     }
     interface IntrinsicElements {
         "my-component": MyComponent;

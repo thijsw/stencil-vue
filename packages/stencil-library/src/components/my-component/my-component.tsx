@@ -15,7 +15,7 @@ export class MyComponent {
   /**
    * The middle name
    */
-  @Prop() middle: string;
+  @Prop() middleName: string;
 
   /**
    * The last name
@@ -23,7 +23,7 @@ export class MyComponent {
   @Prop() last: string;
 
   private getText(): string {
-    return format(this.first, this.middle, this.last);
+    return format(this.first, this.middleName, this.last);
   }
 
   render() {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <my-component first="Thijs" last="Wijnmaalen" />
+    <my-component first="Thijs" middle-name="developer" last="Wijnmaalen" />
   </div>
 </template>
 
